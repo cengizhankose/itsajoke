@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Structure Guide
+
+This project uses a typical React Native/Expo structure:
+
+- The main entry point is [App.tsx](mdc:App.tsx).
+- TypeScript configuration is in [tsconfig.json](mdc:tsconfig.json).
+- Project dependencies are managed in [package.json](mdc:package.json).
+- Static assets are stored in the [assets/](mdc:assets) directory.
+- The [index.ts](mdc:index.ts) file is used for Expo/React Native bootstrapping.
+
+Follow this structure for adding new features or configuration files.
